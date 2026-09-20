@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique Komore - Acheter des Pièces</title>
+    <!-- Intégration de Tailwind CSS -->
+    <script src="https://tailwindcss.com"></script>
+    <style>
+        body {
+            background-color: #0b1426;
+            color: #ffffff;
+        }
+        .store-bg {
+            background: radial-gradient(circle at center, #112547 0%, #070d1a 100%);
+        }
+    </style>
+</head>
+<body class="font-sans antialiased flex flex-col min-h-screen store-bg">
+
+    <!-- Message d'avertissement tout en haut -->
+    <div class="bg-amber-500/10 border-b border-amber-500/20 text-amber-400 text-center py-3 px-4 text-xs font-bold tracking-wider uppercase">
+        ⚠️ L'achat n'est pas encore disponible
+    </div>
+
+    <!-- En-tête / Navigation -->
+    <header class="p-8 max-w-7xl mx-auto w-full flex justify-between items-center">
+        <!-- Bouton Installer en haut à gauche -->
+        <div>
+            <a href="https://robloxhack666.github.io/jeux-video-de-Komore-/" target="_blank" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-6 rounded-lg text-sm tracking-wide uppercase transition duration-200 shadow-lg">
+                📥 Installer
+            </a>
+        </div>
+        
+        <!-- Nom du Launcher à droite -->
+        <div class="text-right">
+            <p class="text-[10px] font-bold text-gray-400 uppercase tracking-widest">Boutique Officielle</p>
+            <h1 class="text-2xl font-black text-white tracking-widest mt-1">KOMORE LAUNCHER</h1>
+        </div>
+    </header>
+
+    <!-- Zone de titre principale et bouton Lancer le jeu -->
+    <div class="max-w-7xl mx-auto px-8 w-full mt-6 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+        <h2 class="text-3xl font-black text-white uppercase tracking-wider">Acheter de la monnaie</h2>
+        <a href="https://robloxhack666.github.io/jeux-video-de-Komore-/" target="_blank" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-2 px-5 rounded-lg text-xs uppercase tracking-wider transition duration-200">
+            🎮 Lancer le jeu
+        </a>
+    </div>
+
+    <!-- Ligne de séparation -->
+    <div class="max-w-7xl mx-auto px-8 w-full my-8">
+        <hr class="border-white/10">
+    </div>
+
+    <!-- Grille des prix -->
+    <main class="max-w-7xl mx-auto px-8 pb-16 w-full flex-grow flex flex-col justify-center">
+        
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 items-stretchmb-16">
+            
+            <!-- PACK 1 : VERT (10€) -->
+            <div class="bg-gradient-to-b from-emerald-600 to-emerald-700 rounded-2xl p-6 flex flex-col justify-between shadow-2xl relative border border-emerald-500/20 transform hover:scale-[1.02] transition duration-200">
+                <div class="text-center">
+                    <span class="text-[11px] font-bold bg-white/10 text-white px-3 py-1 rounded-full uppercase tracking-wider">Option 1</span>
+                    <div class="my-16 flex flex-col items-center justify-center">
+                        <div class="text-6xl font-black text-white tracking-tight mb-3">500</div>
+                        <div class="text-xs font-bold text-emerald-100 uppercase tracking-widest">Pièces Komore</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-xl font-black text-white text-center bg-black/20 py-2.5 rounded-xl border border-white/10 mb-5">
+                        10,00 €
+                    </div>
+                    <!-- Bouton Acheter relié au lien d'achat fourni -->
+                    <a href="https://robloxhack666.github.io/argent-du-launcher/" target="_blank" class="block w-full bg-gray-600/40 hover:bg-gray-600 text-gray-300 text-center font-bold py-3.5 px-4 rounded-xl uppercase tracking-wider text-xs border border-white/5 transition">
+                        Acheter
+                    </a>
+                </div>
+            </div>
+
+            <!-- PACK 2 : BLEU (15€) -->
+            <div class="bg-gradient-to-b from-blue-600 to-blue-700 rounded-2xl p-6 flex flex-col justify-between shadow-2xl relative border border-blue-500/20 transform hover:scale-[1.02] transition duration-200">
+                <div class="text-center">
+                    <span class="text-[11px] font-bold bg-white/10 text-white px-3 py-1 rounded-full uppercase tracking-wider">Option 2</span>
+                    <div class="my-16 flex flex-col items-center justify-center">
+                        <div class="text-6xl font-black text-white tracking-tight mb-3">1 000</div>
+                        <div class="text-xs font-bold text-blue-100 uppercase tracking-widest">Pièces Komore</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-xl font-black text-white text-center bg-black/20 py-2.5 rounded-xl border border-white/10 mb-5">
+                        15,00 €
+                    </div>
+                    <a href="https://robloxhack666.github.io/argent-du-launcher/" target="_blank" class="block w-full bg-gray-600/40 hover:bg-gray-600 text-gray-300 text-center font-bold py-3.5 px-4 rounded-xl uppercase tracking-wider text-xs border border-white/5 transition">
+                        Acheter
+                    </a>
+                </div>
+            </div>
+
+            <!-- PACK 3 : VIOLET (25€) -->
+            <div class="bg-gradient-to-b from-purple-600 to-purple-700 rounded-2xl p-6 flex flex-col justify-between shadow-2xl relative border border-purple-500/20 transform hover:scale-[1.02] transition duration-200">
+                <div class="text-center">
+                    <span class="text-[11px] font-bold bg-white/10 text-white px-3 py-1 rounded-full uppercase tracking-wider">Option 3</span>
+                    <div class="my-16 flex flex-col items-center justify-center">
+                        <div class="text-6xl font-black text-white tracking-tight mb-3">2 500</div>
+                        <div class="text-xs font-bold text-purple-100 uppercase tracking-widest">Pièces Komore</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-xl font-black text-white text-center bg-black/20 py-2.5 rounded-xl border border-white/10 mb-5">
+                        25,00 €
+                    </div>
+                    <a href="https://robloxhack666.github.io/argent-du-launcher/" target="_blank" class="block w-full bg-gray-600/40 hover:bg-gray-600 text-gray-300 text-center font-bold py-3.5 px-4 rounded-xl uppercase tracking-wider text-xs border border-white/5 transition">
+                        Acheter
+                    </a>
+                </div>
+            </div>
+
+            <!-- PACK 4 : ORANGE (100€) -->
+            <div class="bg-gradient-to-b from-orange-500 to-orange-600 rounded-2xl p-6 flex flex-col justify-between shadow-2xl relative border border-orange-400/20 transform hover:scale-[1.02] transition duration-200">
+                <div class="text-center">
+                    <span class="text-[11px] font-bold bg-white/20 text-white px-3 py-1 rounded-full uppercase tracking-wider">Option 4</span>
+                    <div class="my-16 flex flex-col items-center justify-center">
+                        <div class="text-6xl font-black text-white tracking-tight mb-3">10 000</div>
+                        <div class="text-xs font-bold text-orange-100 uppercase tracking-widest">Pièces Komore</div>
+                    </div>
+                </div>
+                <div>
+                    <div class="text-xl font-black text-white text-center bg-black/20 py-2.5 rounded-xl border border-white/10 mb-5">
+                        100,00 €
+                    </div>
+                    <a href="https://robloxhack666.github.io/argent-du-launcher/" target="_blank" class="block w-full bg-gray-600/40 hover:bg-gray-600 text-gray-300 text-center font-bold py-3.5 px-4 rounded-xl uppercase tracking-wider text-xs border border-white/5 transition">
+                        Acheter
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Section de teasing du prochain jeu d'horreur -->
+        <div class="mt-16 bg-[#16223f]/60 border border-red-500/30 rounded-2xl p-8 flex flex-col md:flex-row items-center justify-between gap-8 max-w-5xl mx-auto w-full shadow-2xl">
+            <div class="flex-1 text-center md:text-left">
+                <span class="bg-red-600 text-white text-[10px] font-black uppercase px-2.5 py-1 rounded tracking-widest animate-pulse">
+                    Prochainement
+                </span>
+                <h3 class="text-2xl font-black text-white uppercase tracking-wider mt-3">Nouveau Jeu d'Horreur Komore</h3>
+                <p class="text-gray-400 text-sm mt-2 max-w-md">Préparez-vous à trembler. Un tout nouvel univers terrifiant arrive très bientôt sur votre launcher favori.</p>
+            </div>
+            <div class="w-full md:w-64 h-40 rounded-xl overflow-hidden shadow-md border border-red-500/20">
+                <!-- Lien de l'image de la poupée Annabelle -->
+                <img src="https://images.rtl.fr/~c/770v513/rtl/www/1076707-le-film-d-horreur-annabelle.jpg" alt="Prochain Jeu Horreur" class="w-full h-full object-cover hover:scale-105 transition duration-300">
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Pied de page -->
+    <footer class="text-center py-8 border-t border-white/5 text-[11px] text-gray-500 max-w-7xl mx-auto w-full">
+        &copy; 2026 Komore Launcher. Tous droits réservés.
+    </footer>
+
+</body>
+</html>
